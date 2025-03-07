@@ -1,7 +1,7 @@
 # Kotlin Design Patterns Repository
 
 ## Overview
-This repository provides Kotlin implementations of 10 popular design patterns, spanning creational, structural, and behavioral categories. The goal is to offer clear code examples and concise documentation to help you understand, learn, and apply these patterns in real-world projects.
+This repository provides Kotlin implementations of 10 popular design patterns, spanning creational, structural, and behavioral categories. The goal is to offer clear code examples and concise documentation to help you understand, learn, and apply these patterns in real-world projects. 
 
 ## Organization
 The repository is structured into folders based on pattern categories:
