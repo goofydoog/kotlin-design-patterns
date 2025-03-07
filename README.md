@@ -48,3 +48,13 @@ Each design pattern is implemented in its own file (or files, when necessary) wi
 
 10. **Facade**  
     *Provides a simplified interface to a complex subsystem, making it easier to interact with.*
+
+
+## Bonus
+
+**Dependency Injection**
+
+Although DI is not a design pattern, I've included it in this repository because many resources refer to it as one. Remember, DI is not a single pattern but rather a set of patterns and principles that work together.
+
+Dependency Injection (DI) is a technique that decouples components by injecting their dependencies from the outside, instead of having the components create dependencies themselves. While DI isn't a traditional design pattern like Singleton or Observer, it is a key implementation of Inversion of Control (IoC) and plays an essential role in building modular, testable, and maintainable applications.
+
