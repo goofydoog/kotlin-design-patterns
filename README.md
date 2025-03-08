@@ -20,33 +20,34 @@ Each design pattern is implemented in its own file (or files, when necessary) wi
 ## Table of Contents
 
 1. **[Singleton](https://github.com/goofydoog/kotlin-design-patterns/tree/main/creational)**
+   
    *Ensures a class has only one instance and provides a global point of access to it.*
 
-2. **Factory Method**  
+3. **Factory Method**  
    *Defines an interface for creating an object, but lets subclasses decide which class to instantiate.*
 
-3. **Abstract Factory**  
+4. **Abstract Factory**  
    *Provides an interface for creating families of related or dependent objects without specifying their concrete classes.*
 
-4. **Builder**  
+5. **Builder**  
    *Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.*
 
-5. **Adapter**  
+6. **Adapter**  
    *Allows the interface of an existing class to be used as another interface that clients expect.*
 
-6. **Decorator**  
+7. **Decorator**  
    *Attaches additional responsibilities to an object dynamically, offering a flexible alternative to subclassing for extending functionality.*
 
-7. **Observer**  
+8. **Observer**  
    *Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.*
 
-8. **Strategy**  
+9. **Strategy**  
    *Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the algorithm to vary independently from clients that use it.*
 
-9. **Command**  
+10. **Command**  
    *Encapsulates a request as an object, allowing for parameterization of clients with different requests and the queuing or logging of requests.*
 
-10. **Facade**  
+11. **Facade**  
     *Provides a simplified interface to a complex subsystem, making it easier to interact with.*
 
 
