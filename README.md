@@ -20,7 +20,6 @@ Each design pattern is implemented in its own file (or files, when necessary) wi
 ## Table of Contents
 
 1. **[Singleton](https://github.com/goofydoog/kotlin-design-patterns/tree/main/creational)**
-   
    *Ensures a class has only one instance and provides a global point of access to it.*
 
 3. **Factory Method**  
