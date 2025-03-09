@@ -1,6 +1,6 @@
 //Singleton
-// kotlin has a very simple way of creating Singleton object
-
+//Kotlin has a very simple way of creating Singleton object
+// object is lazy initialized
 object DatabaseManager {
     private var connectionInitialized = false
 
@@ -40,3 +40,27 @@ fun main() {
     DatabaseManager.disconnect() // disconnecting from db...
     DatabaseManager.disconnect() // there is no active connection.
 }
+
+// also there is a way of initializing Singleton using companion object, but it is more complex and less usable version
+
+class Database private constructor() {
+    companion object {
+        private var instance: Database? = null
+
+        fun getInstance(): Database? {
+            if (instance == null) {
+                instance = Database()
+            }
+            return instance
+        }
+    }
+}
+
+fun main() {
+
+    val instance = Database.getInstance()
+    val instance1 = Database.getInstance()
+    println(instance)
+    println(instance1 == instance)
+}
+
